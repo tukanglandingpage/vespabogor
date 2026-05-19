@@ -209,29 +209,34 @@
     }
 
     /* KEUNGGULAN */
-    .advantages{
-      background:#fff;
-    }
+.keunggulan-section{
+  background:#f3f4f6;
+}
 
-    .adv-grid{
-      display:grid;
-      grid-template-columns:repeat(3,1fr);
-      gap:25px;
-      margin-top:40px;
-    }
+.keunggulan-wrap{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  margin-top:40px;
+}
 
-    .adv-box{
-      background:#f7f4ee;
-      padding:30px;
-      border-radius:25px;
-      text-align:center;
-    }
+.keunggulan-item{
+  background:#ffffff;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.06);
+}
 
-    .adv-box h3{
-      margin-bottom:10px;
-      font-size:24px;
-    }
+.keunggulan-item h3{
+  color:#f97316;
+  margin-bottom:15px;
+  font-size:22px;
+}
 
+.keunggulan-item p{
+  color:#374151;
+}
+    
     /* GALLERY */
     .gallery-grid{
       display:grid;
@@ -506,33 +511,43 @@
   </section>
 
   <!-- KEUNGGULAN -->
-  <section class="advantages">
-    <div class="container">
+<section class="keunggulan-section">
 
+  <div class="container">
+
+    <div class="section-title">
       <h2>Kenapa Pilih Kami?</h2>
+      <p>&nbsp;</p>
+    </div>
 
-      <div class="adv-grid">
+    <div class="keunggulan-wrap">
 
-        <div class="adv-box">
-          <h3>Ready Stock</h3>
-          <p>Tersedia berbagai pilihan Vespa matic terbaru.</p>
-        </div>
+      <div class="keunggulan-item">
+        <h3>Ready Stock</h3>
+        <p>
+          Tersedia berbagai pilihan Vespa matic terbaru.
+        </p>
+      </div>
 
-        <div class="adv-box">
-          <h3>Proses Cepat</h3>
-          <p>Pembelian mudah dengan pelayanan profesional.</p>
-        </div>
+      <div class="keunggulan-item">
+        <h3>Proses Cepat</h3>
+        <p>
+          Pembelian mudah dengan pelayanan profesional.
+        </p>
+      </div>
 
-        <div class="adv-box">
-          <h3>Cicilan Ringan</h3>
-          <p>Tersedia kredit leasing dan kartu kredit.</p>
-        </div>
-
+      <div class="keunggulan-item">
+        <h3>Cicilan Ringan</h3>
+        <p>
+          Tersedia kredit leasing dan kartu kredit.
+        </p>
       </div>
 
     </div>
-  </section>
 
+  </div>
+
+</section>
   <!-- GALLERY -->
   <section id="gallery">
     <div class="container">
